@@ -4,9 +4,11 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
 import "./index.css";
 
-createRoot(document.getElementById("root")!).render(
+const rootElement = document.getElementById("root");
+if (!rootElement) throw new Error("Failed to find the root element");
+
+createRoot(rootElement).render(
   <React.StrictMode>
-    {/* The basename matches your repository name for GitHub Pages */}
     <BrowserRouter basename="/Portfolio">
       <App />
     </BrowserRouter>
