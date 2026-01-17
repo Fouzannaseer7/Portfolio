@@ -10,14 +10,14 @@ const ProjectsSection = () => {
       description: "I developed an intelligent healthcare web application that helps users identify possible diseases based on the symptoms they experience, using a machine learning model trained on real medical data to provide accurate predictions along with an easy-to-understand confidence score. I was responsible for the complete development process — from cleaning and preparing the data, building and training the model, to designing the user interface and deploying the application. The system was built using Python, Scikit-Learn, Flask, and Streamlit, with strong focus on performance optimization and creating a smooth, user-friendly experience. This project reflects my ability to transform data into real-world solutions while building applications that balance technical strength with practical usability.",
       image: diseasePredictionImg,
       tags: ["Python", "Scikit-Learn", "Flask", "Streamlit", "Machine Learning"],
-      github: "https://github.com/Fouzannaseer7",
+      github: "https://github.com/Fouzannaseer7/HealthMind-AI",
     },
     {
       title: "🏥 Hospital Management System | Full-Stack Web Application",
       description: "Developed a full-stack Hospital Management System using Flask and MySQL with secure authentication, role-based access for Admin, Doctor, and Patient, and real-time appointment scheduling. Implemented medical record management, automated notifications, dynamic time-slot generation, and conflict prevention to avoid double bookings. The system ensures data security through password hashing and session management while delivering a reliable, user-friendly platform that simulates real hospital workflows.",
       image: hospitalManagementImg,
       tags: ["Python", "Flask", "MySQL", "HTML/CSS", "Jinja2", "Flask-Session", "Werkzeug Security"],
-      github: "https://github.com/Fouzannaseer7",
+      github: "https://github.com/Fouzannaseer7/Medi-Care",
     },
   ];
 
