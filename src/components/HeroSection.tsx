@@ -52,7 +52,7 @@ const HeroSection = () => {
             {/* Stats */}
             <div className="flex items-center justify-center lg:justify-start gap-8 mt-12 animate-fade-in animation-delay-600">
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-foreground">2024</div>
+                <div className="text-3xl md:text-4xl font-bold text-foreground">2023</div>
                 <div className="text-sm text-muted-foreground">Started Journey</div>
               </div>
               <div className="w-px h-12 bg-border" />
