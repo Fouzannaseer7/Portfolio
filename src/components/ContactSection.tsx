@@ -72,7 +72,7 @@ const ContactSection = () => {
               Let's Connect
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I'm always open to discussing new opportunities, collaborations, or just having a chat about AI and data science.
+              I'm always open to discussing new opportunities, collaborations, or just having a chat about Artificial Intelligence and Data Science.
             </p>
           </div>
 

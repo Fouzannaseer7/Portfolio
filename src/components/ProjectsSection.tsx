@@ -47,11 +47,10 @@ const ProjectsSection = () => {
               className="bg-card rounded-3xl overflow-hidden shadow-card border border-border hover:shadow-lg transition-shadow duration-300"
             >
               {/* Project Image */}
-             <div className="relative h-64 md:h-80 overflow-hidden group"> {/* Added 'group' */}
-             <img
+              <div className="relative h-64 md:h-80 overflow-hidden group">
+                <img
                   src={project.image}
                   alt={project.title}
-                  /* Added transition and group-hover:scale-110 */
                   className="w-full h-full object-cover object-top scale-200"
                 />
               </div>
@@ -62,7 +61,8 @@ const ProjectsSection = () => {
                   {project.title}
                 </h3>
 
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                {/* Justified Description */}
+                <p className="text-muted-foreground mb-6 leading-relaxed text-justify">
                   {project.description}
                 </p>
 

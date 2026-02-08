@@ -23,7 +23,7 @@ const HeroSection = () => {
           <div className="order-2 lg:order-1 text-center lg:text-left">
             <div className="animate-slide-up">
               <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
-                AI & Data Science Student
+                Artificial Intelligence & Data Science Student
               </span>
             </div>
             
@@ -32,10 +32,10 @@ const HeroSection = () => {
               <span className="text-gradient">Fouzan Naseer</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0 animate-slide-up animation-delay-400">
-              Passionate about transforming data into actionable insights. 
-              Currently pursuing B.Tech in AI & Data Science at B.S. Abdur Rahman Crescent Institute.
-            </p>
+           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0 animate-slide-up animation-delay-400 text-justify">
+            Passionate about transforming data into actionable insights. 
+            Currently pursuing B.Tech in Artificial Intelligence & Data Science at B.S. Abdur Rahman Crescent Institute.
+          </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-up animation-delay-600">
               <Button 
@@ -82,7 +82,7 @@ const HeroSection = () => {
                 {/* Name overlay on image */}
                 <div className="absolute bottom-4 left-4 right-4">
                   <h3 className="text-lg font-semibold text-background">Fouzan Naseer</h3>
-                  <p className="text-sm text-background/80">AI & Data Science</p>
+                  <p className="text-sm text-background/80">Artificial Intelligence & Data Science</p>
                 </div>
               </div>
 

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Download } from "lucide-react"; 
 import { useState } from "react";
 
 const Navbar = () => {
@@ -13,16 +13,28 @@ const Navbar = () => {
     { name: "Contact", href: "#contact" },
   ];
 
+  // Helper component for consistent cross-device behavior
+  const CVLink = ({ className }: { className?: string }) => (
+    <a 
+      href="./resume.pdf" // MUST rename your file in public folder to match this
+      download="Fouzan_Naseer_Resume.pdf"
+      target="_blank" 
+      rel="noopener noreferrer"
+      className={className}
+    >
+      <Download size={18} />
+      Download CV
+    </a>
+  );
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
           <a href="#home" className="text-xl md:text-2xl font-bold text-foreground">
             Fouzan Naseer
           </a>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <a
@@ -35,14 +47,12 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="nav" size="default">
-              Download CV
+            <Button variant="hero" size="default" asChild>
+              <CVLink className="flex items-center gap-2" />
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2 text-foreground"
             onClick={() => setIsOpen(!isOpen)}
@@ -52,7 +62,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden py-4 border-t border-border/50 animate-fade-in">
             <div className="flex flex-col gap-4">
@@ -66,8 +75,8 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <Button variant="hero" size="lg" className="mt-2">
-                Download CV
+              <Button variant="hero" size="lg" className="mt-2 w-full" asChild>
+                <CVLink className="flex items-center justify-center gap-2" />
               </Button>
             </div>
           </div>

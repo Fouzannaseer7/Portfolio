@@ -31,7 +31,7 @@ const AboutSection = () => {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
               Designing Solutions, Not Just Visuals
             </h2>
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-muted-foreground text-lg leading-relaxed text-justify">
               Detail-oriented and motivated Artificial Intelligence & Data Science student with a strong background in machine learning and data analysis. Having a strong belief in professionalism, positive attitude, and dedication, eagerness to learn and implement, capability of understanding and implementing modern technology quickly. Capable of surviving in solo projects and group projects.
             </p>
 
@@ -42,13 +42,13 @@ const AboutSection = () => {
                   <GraduationCap className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground">B.Tech in AI & Data Science</h4>
+                  <h4 className="font-semibold text-foreground">B.Tech in Artificial Intelligence & Data Science</h4>
                   <p className="text-muted-foreground text-sm">B. S. Abdur Rahman Crescent Institute of Science and Technology</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4 p-4 bg-card rounded-xl shadow-soft hover:shadow-card transition-shadow duration-300">
-                <div className="w-12 h-12 bg-secondary/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Calendar className="w-6 h-6 text-secondary-foreground" />
                 </div>
                 <div>
@@ -58,8 +58,8 @@ const AboutSection = () => {
               </div>
 
               <div className="flex items-start gap-4 p-4 bg-card rounded-xl shadow-soft hover:shadow-card transition-shadow duration-300">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-accent" />
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Current Status</h4>
