@@ -52,7 +52,7 @@ const AboutSection = () => {
                   <Calendar className="w-6 h-6 text-secondary-foreground" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground">B.Tech 2024 - 2027</h4>
+                  <h4 className="font-semibold text-foreground">B.Tech 2023 - 2027</h4>
                   <p className="text-muted-foreground text-sm">Expected graduation timeline</p>
                 </div>
               </div>

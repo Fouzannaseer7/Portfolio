@@ -89,7 +89,7 @@ const HeroSection = () => {
               {/* Experience badge - professional muted style */}
               <div className="absolute -right-4 top-6 bg-foreground text-background rounded-lg px-4 py-2.5 shadow-lg animate-float-slow">
                 <div className="text-lg font-bold">B.Tech</div>
-                <div className="text-xs opacity-80">2024 - 2027</div>
+                <div className="text-xs opacity-80">2023 - 2027</div>
               </div>
 
               {/* Status indicator - minimal */}
